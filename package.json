@@ -1,0 +1,14 @@
+{
+  "name": "jwt_api",
+  "version": "1.0.0",
+  "description": "Projeto de api com login JWT e banco de dados mongo integrado.",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruan Pissinati",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
