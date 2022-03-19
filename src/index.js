@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-
 const app = express();
 
 app.use(bodyParser.json()); // Entenda quando enviar parametros em json
@@ -13,6 +12,7 @@ app.get('/', (req, res)=>{
 
 });
 require('./controllers/authController')(app);
+require('./controllers/projetoAuthenticadedController')(app);
 
 
 app.listen(3000);
